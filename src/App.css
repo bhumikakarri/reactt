@@ -1,38 +1,547 @@
-.App {
+ .main{
+    background-image: url('https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.name{
+    justify-content: center;
+    margin: 33%;
+    margin-top: 10%;
+}
+.block{
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    border: 4px solid rgb(78, 200, 244);
+    border-radius: 8px;
+    padding-top: 10px;
+    font-size: larger;
+    
+} .name h1{
+    color:white;
+    
+    
+    
+}
+.block input{
+    border-radius: 30px;
+    border-color: aqua;
+    margin-top: 10px;
+  text-align: center;
+    background-color: none;
+}
+.block button{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 30px;
+    width: 80px;
+}.block p{
+    color: white;
+    
+    text-decoration: none;
+}
+.main1{
+    background-image: url('https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}.one{
+    
+    height: 200vh;
+    background-color:rgb(9, 90, 9);
+    
+
+} .one ul li{
+     color: white; 
+     font-size: 20px;
+ } .one ul Link li{
+    text-decoration: none;
+ }
+ .three button{
+    background-color: rgba(240, 9, 9, 0.847);
+    color:white;
+    height: 40px;
+    border-radius: 20px;
+ } .three{
+    border: 3px solid rgb(55, 117, 193);
+    height: 300px;
+    width: 550px;
+   padding: 80px;
+    text-align: center;
+    margin-top: 210px;
+    margin-left: 210px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+ } .three h1{
+    color: rgb(55, 117, 193);
+ }
+ .three p{
+    color: rgb(55, 117, 193);
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 400;
+   font-size: larger;
+ }
+ 
+ .container{
+    display: flex;
+    text-align: center;
+   
+ }.blockk{
+    height: 210px;
+   width: 200px;
+   border: 1px ;
+   border-radius: 5px;
+   background-color: rgb(33, 161, 161);
+   margin: 10px;
+   
+  
+ }
+.blockk h5{
+    color: white;
+    font-size: 20px;
+    padding-top:20px ;
+
+}
+.blockk1{
+    height: 210px;
+    width: 200px;
+    border: 1px ;
+    border-radius: 5px;
+    background-color: rgb(203, 149, 50);
+    margin: 10px;
+   
+  }
+ .blockk1 h5{
+     color: white;
+     font-size: 20px;
+     padding-top:20px ;
+ 
+ } .blockk2{
+    height: 210px;
+    width: 200px;
+    border: 1px ;
+    border-radius: 5px;
+    background-color:  rgb(55, 117, 193);
+    margin: 10px;
+   
+  }
+ .blockk2 h5{
+     color: white;
+     font-size: 20px;
+     padding-top:20px ;
+ 
+ } .blockk3{
+    height: 210px;
+    width: 200px;
+    border: 1px ;
+    border-radius: 5px;
+    background-color: rgb(33, 123, 120);
+    margin: 10px;
+    
+  }
+ .blockk3 h5{
+     color: white;
+     font-size: 20px;
+     padding-top:20px ;
+ 
+ }
+ .blockk4{
+    height: 210px;
+    width: 200px;
+    border: 1px ;
+    border-radius: 5px;
+    background-color: rgb(33, 161, 161);
+    margin: 10px;
+    
+  }
+ .blockk4 h5{
+     color: white;
+     font-size: 20px;
+     padding-top:20px ;
+ 
+ }
+ .blockk4 p{
+    color: white;
+   
+
+}
+.blockk p{
+    color: white;
+    
+
+}
+.blockk1 p{
+    color: white;
+    
+
+}
+.blockk2 p{
+    color: white;
+  
+
+}
+.blockk3 p{
+    color: white;
+   
+
+}.blo{
+    border: 1px solid;
+    height: 90px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+.new img{
+    width: 200px;
+  }
+   img{
+    height:850px;
+  }
+  
+  
+  
+  .block22 {
+        
+        justify-content: center;
+       
+      
+        
+          
+  } .block22 h1{
+    text-align: center;
+    font-style: italic;
+    color: forestgreen;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    margin-right:100px;
+    margin-top: 200px;
+  } 
+  
+  .block22 h3{
+    font-size: 20px;
+    font-style: italic;
+    color: forestgreen;
+    margin-top: 20px;
+   
+  
+  } input{
+    width: 300px;
+    border-radius:7px;
+  
+  }  .block22 button{
+    width:300px ;
+    border-radius:7px;
+     background-color: forestgreen;
+     color: white;
+     
+  }.block22 p{
+    color:forestgreen ;
+    font-weight: 800;
+  } .mainn{
+    display: flex;
+   flex-wrap: wrap;
+  }
+  .card{
+    width: 300px;
+    margin: 2%;
+    padding: 2%;
+  }
+  .card img{
+    height: 250px;
+    width: 100%;
+  }
+  .headd{
+    color: rgb(14, 146, 14);
+  }
+  .bb{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .bblock img{
+   
+    height: 270px;
+    width:270px;
+    
+    
+  }.bblock:hover img{
+    transform: scale(1.05);
+        } 
+  
+  .bblock{
+    height:400px;
+    width: 300px;
+    margin: 2%;
+    padding: 2%;
+   padding: 20px;
+   text-align: center;
+  
+  }
+  .bblock button{
+      width:70%;
+      background-color: rgb(35, 163, 35);
+      text-align: center;
+      color:white;
+  }  
+  .own h3 input{
+      margin-top: 3%;
+     width: 600px;
+    border: 1px solid ;
+    
+
+  }
+  .own h4 input{
+      
+    width: 600px;
+    height: 200px;
+    text-align: start;
+    border: 1px solid ;
+    
+
+ } .ownn{
+  margin-top: 160px;
+  text-align: center;
+ }
+ .ownn input{
+
+
+  margin-top: 30px;
+  
+ }
+ .ownn h1{
+  color:forestgreen;
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+
+ } 
+ .ownn1{
+
+  margin-top: 180px;
+  border-color: rgb(239, 239, 239);
+   border: 1px solid;
+   height: 410px;
+   width:400px;
+
+ 
+ }
+ .ownn1 h3,p{
+  margin-left: 30px;
+  
+ }
+ .ownn button{
+  width:200px;
+   height: 50px;
+   background-color: rgb(79, 191, 79);
+  
+ }
+
+
+ .wheat img{
+  width: 100%;
+  height: 350px;
+ }
+ .oo img{
+  height: 470px;
+    width:100%;
+    
+ }
+ .short{
+  border: 1px solid;
+  height: 250px;
+  width: 250px;
+  margin:3%;
+  background-color: rgb(171, 222, 235);
+  
+}.short2{
+  border: 1px solid;
+  height: 250px;
+  width: 250px;
+  margin:3%;
+  background-color: rgb(229, 213, 183);
+
+}
+
+.sh{
+  display: flex;
+  text-align: center;
+  padding-top: 8px;
+  
+}
+.short1{
+  border: 1px solid;
+  height: 250px;
+  width: 250px;
+  margin:2%;
+  background-color: rgb(206, 170, 182);
+}.short3{
+  border: 1px solid;
+  height: 250px;
+  width: 250px;
+  margin:2%;
+  background-color: rgb(144, 186, 144);}
+
+
+
+.sh1{
+  display: flex;
+  text-align: center;
+  padding-top: 8px;
+}
+.sh h3{ 
+     padding-top: 60px;
+}
+.sh1 h3{ 
+  padding-top: 60px;
+}
+.sh button{ 
+  border-radius: 20px;
+}
+.sh1 button{ 
+  border-radius: 20px;
+}
+.rec{
+  padding: 2%;
+  display: flex; 
+  flex-wrap: wrap;
+  
+  text-align: center;
+} .rec button{
+
+  height: 50px;
+  width: 70px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.rec h4,h3,p{
+
+  margin-left: 20px;
+}
+
+
+.recc {
+    padding-top: 3px;
+    
+
+  
+}
+
+.rec img{
+  
+  height: 100px;
+  width: 100px;
+border-radius: 100px;
+}
+.chh{
+  height: 300px;
+  background-color:rgb(103, 178, 153);
+  display: flex;
+flex-wrap: wrap;
+}
+.chh h1{
+  color: gold;
+}
+.chh img{
+
+height: 100px;
+width: 100px;
+
+}
+.rec h2{
+  color: gold;
+}
+.rr img{
+  height: 500px;
+  width: 500px;
+  border-radius: 100px;
+}
+.tt{
+  margin-top:80px;
+  border: 1px solid;
+}
+.in img{
+
+width: 100%;
+  height: 300px;
+}
+.card1{
+  top:2%;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.image-container img {
+  width: 100%;
+  height: 500px;
+}
+
+.marquee {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  animation: marquee 3s linear;
+}
+
+.card1 {
+  position: relative;
+  width: 400px;
+  flex: 0 0 auto;
+  
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.card1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card1 button{
+width:150px;
+  background-color: rgb(82, 210, 82);
+margin-left: 75px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blow{
+  border: 1px solid;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.blo img{
+  width: 200px;
+  height: 200px;
+}
+.blo{
+  height:250px ;
+  width: 480px ;
+}
+.blow1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
+.ble{
+  margin-top: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ble button{
+  background-color:rgb(82, 210, 82);
 }
