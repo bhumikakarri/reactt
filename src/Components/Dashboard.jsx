@@ -9,16 +9,43 @@ import StarIcon from '@mui/icons-material/Star';
 import { PieChart } from '@mui/x-charts/PieChart';
 import PanToolIcon from '@mui/icons-material/PanTool';
 import { BarChart } from '@mui/x-charts/BarChart';
+import AspectRatio from '@mui/joy/AspectRatio';
+import Typography from '@mui/joy/Typography';
+import Card from '@mui/joy/Card';
+import List from '@mui/joy/List';
+import ListDivider from '@mui/joy/ListDivider';
+import ListItem from '@mui/joy/ListItem';
+import ListItemContent from '@mui/joy/ListItemContent';
+import ListItemButton from '@mui/joy/ListItemButton';
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
 
 const data = [
-  { id: 0, value: 10, label: 'selling fruits' },
-  { id: 1, value: 15, label: 'selling vegetables' },
-  { id: 2, value: 20, label: 'both sells' },
+  {
+    src: 'https://cdn.pixabay.com/photo/2017/04/04/01/08/fruits-2200001_1280.jpg',
+    title: 'Straberry',
+    description: '4.21M views',
+  },
+  {
+    src: 'https://cdn.pixabay.com/photo/2017/07/20/18/40/apricots-2523272_1280.jpg',
+    title: 'Berry',
+    description: '4.74M views',
+  },
+  {
+    src: 'https://cdn.pixabay.com/photo/2016/12/17/18/51/persimmon-1914127_1280.jpg',
+    title: 'Orange',
+    description: '3.98M views',
+  },
+  {
+    src: 'https://www.freshorganics.com.au/wp-content/uploads/2016/07/grannysmith.jpg',
+    title: 'APPLE',
+    description: '3.98M views',
+  },
 ];
-
 
 const uData = [4000, 3000, 2000, 2780, 1890, 2390, 3490];
 const pData = [2400, 1398, 9800, 3908, 4800, 3800, 4300];
@@ -31,8 +58,6 @@ const xLabels = [
   'Page F',
   'Page G',
 ];
-
-
 function Dashboard() {
   return (
     <div className='data'>
@@ -47,66 +72,117 @@ function Dashboard() {
       </Col>
       <Col sm={10}>
       <div>
+      
+        <div className='diy1'>
+    <Row>
+      <Col sm={5} className='dr'>
+   <h1>30 </h1>
+   </Col>
+   <Col sm={5} className='ab'>
+   <h2>Years of Industry Experience</h2>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam</p>
+   </Col>
+   </Row>
+   </div>
+        
       <Row>
         <Col sm={6}>
-   
-    <div className='ch'>
-      <h4>Shortcut report</h4>
-        <div className='sh'>
-        <div className='short'>
-        <h3>$0</h3>
-          <p>Today sells</p>
-          <button>+65%</button>
-        </div>
-        <div className='short2'>
-        <h3>$50</h3>
-          <p>Today sells</p>
-          <button>+65%</button>
-        </div>
-        </div>   
-        <div className='sh1'>
-        <div className='short1'>
-          <h3>$40</h3>
-          <p>Today sells</p>
-          <button>+65%</button>
-        </div>
-        <div className='short3'>
-         <h3>$80</h3>
-          <p>Today sells</p>
-          <button>+65%</button>
-        </div>
-        </div>
-
-  
-
-
-    </div>
-    <div className='tt'>
-    <Row>
-  <Col sm={6}>
-  
-    <PieChart
-      series={[
-        {
-          data,
-          highlightScope: { faded: 'global', highlighted: 'item' },
-          faded: { innerRadius: 30, additionalRadius: -30, color: 'gray' },
-        },
-      ]}
-      height={200}
-      width={580}
-    />
+        <h3 className='t4'>Orgado</h3>
+    <div className='ts'>
     
-    </Col>
-    </Row>
-    </div>
+<Row>
+
+<Col sm={6}>
+
+<div className='in'>
+<Carousel>
+<Carousel.Item interval={600}>
+<img
+  className="d-block w-100"
+  src='https://as1.ftcdn.net/v2/jpg/02/90/27/82/1000_F_290278260_DWUXHMOm8XCCKO4JwtoXMiv7LoJb0hu3.jpg'
+  alt="First slide"
+/>
+<Carousel.Caption>
+ 
+
+</Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item interval={500}>
+<img
+  className="d-block w-100"
+  src=' https://www.unlockfood.ca/EatRightOntario/media/Website-images-resized/Organic-food-v-2-resized.jpg'
+  alt="Second slide"
+/>
+<Carousel.Caption>
+ 
+</Carousel.Caption>
+</Carousel.Item>
+<Carousel.Item>
+<img
+  className="d-block w-100"
+  src='https://www.foodnavigator.com/var/wrbm_gb_food_pharma/storage/images/5/1/0/7/2097015-1-eng-GB/Why-do-people-buy-organic-Separating-myth-from-motivation.jpg'
+  alt="Third slide"
+
+/>
+<Carousel.Caption>
+
+</Carousel.Caption>
+</Carousel.Item>
+</Carousel>
+<p>Orgado fruits are very naturally grow we are not usin pesticides</p>
+<p></p>
+<p></p>
+<p>Organic foods include fresh produce, meats, and dairy products as well as processed foods such as fruits frozen meals.
+
+</p>
+<p></p>
+
+<button className='btn2'> Go some where</button>
+</div>
+
+
+
+
+</Col>
+</Row>
+</div>
+<h1> items </h1>
+<Card variant="outlined" sx={{ width: 500, p: 0 }}>
+<List sx={{ py: 'var(--ListDivider-gap)' }}>
+{data.map((item, index) => (
+  <React.Fragment key={item.title}>
+    <ListItem>
+      <ListItemButton sx={{ gap: 2 }}>
+        <AspectRatio sx={{ flexBasis: 200 }}>
+          <img
+            srcSet={`${item.src}?w=120&fit=crop&auto=format&dpr=1 1x`}
+            src={`${item.src}?w=120&fit=crop&auto=format`}
+            alt={item.title}
+          />
+        </AspectRatio>
+        <ListItemContent>
+          <Typography sx={{ fontWeight: 'md' }}>{item.title}</Typography>
+          <Typography level="body-sm">{item.description}</Typography>
+        </ListItemContent>
+      </ListItemButton>
+    </ListItem>
+    {index !== data.length - 1 && <ListDivider />}
+  </React.Fragment>
+))}
+</List>
+</Card>
+
+
+
+ 
+    
     
 
    
         
         </Col>
         <Col sm={6}>
-        <h3>recent customers</h3>
+        <h3 className='t4'>Recent customers</h3>
         
         
        <div className='recc'>
@@ -147,6 +223,33 @@ function Dashboard() {
 <button className='btn btn-primary'>view </button>
 
 </div>
+</div>
+<div className='ez'>
+<Row>
+<Col sm={6}>
+
+<BarChart
+      xAxis={[{ scaleType: 'band', data: ['vegetables cells', 'fruits sells', 'both'] }]}
+      series={[{ data: [4, 3, 5] }, { data: [1, 6, 3] }, { data: [2, 5, 6] }]}
+      width={500}
+      height={400}
+    />
+   <p>4months comparison cells</p>
+
+   
+
+
+
+</Col>
+
+
+
+</Row>
+
+
+
+
+
 </div>
          
         </Col>

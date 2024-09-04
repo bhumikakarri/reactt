@@ -469,6 +469,7 @@ width: 100px;
 .tt{
   margin-top:80px;
   border: 1px solid;
+ 
 }
 .in img{
 
@@ -545,3 +546,128 @@ margin-left: 75px;
 .ble button{
   background-color:rgb(82, 210, 82);
 }
+.diy h2{
+text-align: center;
+color: forestgreen;
+font-weight: 700;
+}
+.diy p{
+  text-align: center;
+  color: forestgreen;
+  font-weight: 500;
+}
+.in{
+  height: 500px;
+  width: 510px;
+}
+.ts{
+  margin-top:40px;
+  border: 1px solid;
+  height: 500px;
+}
+.btn2{
+ background-color: rgb(78, 176, 78);
+  margin-left:190px;
+  color: white;
+
+}
+.t4{
+
+ font-weight: 400;
+}
+.one{
+  position: fixed;
+  width:170px;
+}
+.ot{
+  position: fixed;
+ 
+}
+.sb img{
+  width: 200px;
+  height: 200px;
+}
+.er img{
+  height: 150px;
+  width:150px;
+}
+ .ss{
+  border-radius: 20px;
+  background-color:forestgreen ;
+  width: 150px;
+}
+.t{
+  text-align: center;
+}
+.es{
+ text-align: center;
+ border: 1px solid;
+}
+.er{
+ 
+  margin-left: 300px;
+}
+.er{
+  padding-top: 80PX;
+}.rt{
+  padding-top: 80PX;
+}
+rt h2{
+  color: gold;
+}
+.dr h1{
+font-size: 300px;
+background: url('https://img.freepik.com/premium-photo/large-display-fruits-vegetables-including-one-that-says-fruit_901003-39079.jpg');
+background-clip: text;
+color: transparent;
+animation: move 1s infinite;
+}
+.ab{
+  padding-top: 80px;
+}
+.ab h2{
+  font-size: 50px;
+}
+.cd{
+  display: flex;
+}
+.bc{
+  height: 400px;
+  width:700px;
+}
+.bc img{
+  height: 300px;
+  width:300px
+}
+ .gd img{
+  height: 400px;
+  width:400px
+}
+.gd{
+  padding-top: 130px;
+}
+.bd{
+  padding-top: 130px;
+}
+.bd h1{
+    font-size: 60px;
+  background: url('https://img.freepik.com/premium-photo/large-display-fruits-vegetables-including-one-that-says-fruit_901003-39079.jpg');
+background-clip: text;
+color: transparent;
+
+}
+.ot{
+  position: fixed;
+}
+.dd{
+  box-shadow: 550px;
+  display: flex;
+ 
+}
+.gg img{
+  height: 400px;
+  width:400px
+}
+
+
+

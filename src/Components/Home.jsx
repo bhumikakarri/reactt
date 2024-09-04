@@ -51,6 +51,17 @@ function Home() {
         </div>
       </div>
     </div>
+    <Row>
+      <Col  className='gg'>
+      <img src='https://zomata-typescript.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.fed19a58.png&w=640&q=75'></img>
+      </Col>
+    <Col sm={6} className='bd'>
+    <h1>Zomata Organic
+    Going Green</h1>
+    <p>Lorem ipsum dolor sit amet,  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit</p>
+    </Col>
+    </Row>
+    
   
 
 <Row>
@@ -109,21 +120,9 @@ function Home() {
       <p>12$</p>
       <button>shop now</button>
       </div>
-    
       </Col>
-     
-      
-      
     </Row>
-   
-
-      
-   
-    
   </div>
-  
-  
-  
   </Col>
   
 </Row>
@@ -182,26 +181,23 @@ function Home() {
       <p>12$</p>
       <button>shop now</button>
       </div>
-    
       </Col>
-     
-      
-      
     </Row>
-   
-
-      
-   
+    
     
   </div>
-  
-  
-  
   </Col>
+ 
   
 </Row>
+
 </Col>
+
+
 </Row>
+
+
+
 
 </Row>
     
@@ -210,3 +206,5 @@ function Home() {
 }
 
 export default Home
+
+
