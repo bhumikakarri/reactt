@@ -23,7 +23,7 @@ import View from './Components/View'
 
 function App() {
   return (
-  <div>
+  <div className='container-fluid'>
     
   <Row>
       <Router>
