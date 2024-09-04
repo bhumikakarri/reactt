@@ -30,7 +30,7 @@ function App() {
 
      
         <Routes>
-          <Route path='/react' element={<Login/>}/>
+          <Route path='/reactt' element={<Login/>}/>
           <Route path='signup/' element={<Signup/>}/>
           <Route path='dashboard/' element={<Dashboard/>}/>
           <Route path='head/' element={<Head/>}/>
