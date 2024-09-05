@@ -31,7 +31,7 @@ function Login() {
           
           <p>don,t have an account?<Link to='Signup/'> signup</Link></p>
           <p></p>
-         <Link to='/Dashboard'>  <button>Login</button></Link> 
+         <Link to='/dashboard'>  <button>Login</button></Link> 
         </div>
         
         </Col>
