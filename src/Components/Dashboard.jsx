@@ -96,7 +96,7 @@ function Dashboard() {
 
 <div className='in'>
 <Carousel>
-<Carousel.Item interval={600}>
+<Carousel.Item interval={500}>
 <img
   className="d-block w-100"
   src='https://as1.ftcdn.net/v2/jpg/02/90/27/82/1000_F_290278260_DWUXHMOm8XCCKO4JwtoXMiv7LoJb0hu3.jpg'
