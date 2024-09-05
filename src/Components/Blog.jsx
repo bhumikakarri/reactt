@@ -67,7 +67,7 @@ function Blog() {
 <div className='bblock'>
 
 <img src='https://orgado-typescript.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnews-thumb-04.d9e6f7c1.jpg&w=1080&q=75'></img>
-  <h4>Effective communication for</h4>
+  <h4>Effective communication fr</h4>
   <h4>everyday meetings</h4>
   <Link to='/Read'><button>Readmore</button></Link>
 </div>
