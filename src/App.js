@@ -33,17 +33,17 @@ function App() {
           <Route path='/reactt' element={<Login/>}/>
           <Route path='/signup' element={<Signup/>}/>
           <Route path='/dashboard' element={<Dashboard/>}/>
-          <Route path='/head' element={<Head/>}/>
-          <Route path='/home' element={<Home/>}/>
-         <Route path='/about' element={<About/>}/>
-         <Route path='/blog' element={<Blog/>}/>
-         <Route path='/contact' element={<Contact/>}/>
-         <Route path='/read' element={<Read/>}/>
+          <Route path='head/' element={<Head/>}/>
+          <Route path='home/' element={<Home/>}/>
+         <Route path='about/' element={<About/>}/>
+         <Route path='blog/' element={<Blog/>}/>
+         <Route path='contact' element={<Contact/>}/>
+         <Route path='read/' element={<Read/>}/>
          <Route path='view/' element={<View/>}/>
          
-         <Route path='/orders' element={<Orders/>}/>
-         <Route path='/service' element={<Service/>}/>
-         <Route path='/logout' element={<Logout/>}/>
+         <Route path='orders/' element={<Orders/>}/>
+         <Route path='service/' element={<Service/>}/>
+         <Route path='logout/' element={<Logout/>}/>
         
 
         
