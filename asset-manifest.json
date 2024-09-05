@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/reactt/static/css/main.be938146.css",
+    "main.js": "/reactt/static/js/main.d5640436.js",
+    "static/js/453.1fd1f10b.chunk.js": "/reactt/static/js/453.1fd1f10b.chunk.js",
+    "static/media/radish1.jpg": "/reactt/static/media/radish1.e7a5f49d82843908291e.jpg",
+    "static/media/onion.jpg": "/reactt/static/media/onion.10c4f9c2ce25374d8df3.jpg",
+    "static/media/apple.jpg": "/reactt/static/media/apple.4cf54a7c9f64172e5e6b.jpg",
+    "static/media/carrot1.jpg": "/reactt/static/media/carrot1.b3d611bcd5076fa509c2.jpg",
+    "static/media/dragon.jpg": "/reactt/static/media/dragon.de451f1fac8d393a0247.jpg",
+    "static/media/beetroot.jpg": "/reactt/static/media/beetroot.049ed73d812a799255ef.jpg",
+    "static/media/custard.jpg": "/reactt/static/media/custard.b96f286cfffb3b6a6cf5.jpg",
+    "static/media/drumstick.jpg": "/reactt/static/media/drumstick.22ae33a20bac19580e31.jpg",
+    "static/media/mango.jpg": "/reactt/static/media/mango.a2ce77c3649691034777.jpg",
+    "static/media/pineapple.jpg": "/reactt/static/media/pineapple.ac3ef39616565c9f3017.jpg",
+    "static/media/mint.jpg": "/reactt/static/media/mint.27b7b5e00d68bdb29bfb.jpg",
+    "index.html": "/reactt/index.html",
+    "main.be938146.css.map": "/reactt/static/css/main.be938146.css.map",
+    "main.d5640436.js.map": "/reactt/static/js/main.d5640436.js.map",
+    "453.1fd1f10b.chunk.js.map": "/reactt/static/js/453.1fd1f10b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be938146.css",
+    "static/js/main.d5640436.js"
+  ]
+}
