@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactt/static/css/main.be938146.css",
-    "main.js": "/reactt/static/js/main.b46c0333.js",
+    "main.css": "/reactt/static/css/main.f212fede.css",
+    "main.js": "/reactt/static/js/main.17e04ac5.js",
     "static/js/453.1fd1f10b.chunk.js": "/reactt/static/js/453.1fd1f10b.chunk.js",
     "static/media/radish1.jpg": "/reactt/static/media/radish1.e7a5f49d82843908291e.jpg",
     "static/media/onion.jpg": "/reactt/static/media/onion.10c4f9c2ce25374d8df3.jpg",
@@ -15,12 +15,12 @@
     "static/media/pineapple.jpg": "/reactt/static/media/pineapple.ac3ef39616565c9f3017.jpg",
     "static/media/mint.jpg": "/reactt/static/media/mint.27b7b5e00d68bdb29bfb.jpg",
     "index.html": "/reactt/index.html",
-    "main.be938146.css.map": "/reactt/static/css/main.be938146.css.map",
-    "main.b46c0333.js.map": "/reactt/static/js/main.b46c0333.js.map",
+    "main.f212fede.css.map": "/reactt/static/css/main.f212fede.css.map",
+    "main.17e04ac5.js.map": "/reactt/static/js/main.17e04ac5.js.map",
     "453.1fd1f10b.chunk.js.map": "/reactt/static/js/453.1fd1f10b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be938146.css",
-    "static/js/main.b46c0333.js"
+    "static/css/main.f212fede.css",
+    "static/js/main.17e04ac5.js"
   ]
 }
