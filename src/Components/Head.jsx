@@ -7,8 +7,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScrollExample() {
   return (
-
-    <Navbar expand="lg" className='ot' >
+<div className='container-fluid nt'>
+    <Navbar expand="lg"  >
       <Container fluid>
         <Navbar.Brand href="#"><h1 className='headd'>Organics</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -46,6 +46,7 @@ function NavScrollExample() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
   );
 }
 
