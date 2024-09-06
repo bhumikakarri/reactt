@@ -26,7 +26,7 @@ function Logout() {
        
     
           <p>ARE YOU SURE LOGOUT</p>
-          <Link to='/'><button>LOGOUT</button></Link>
+          <Link to='/reactt'><button>LOGOUT</button></Link>
           
         </div>
       

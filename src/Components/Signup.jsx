@@ -38,7 +38,7 @@ function Signup() {
           
           
           <p></p>
-          <Link to='/' ><button>submit</button></Link> 
+          <Link to='/reactt' ><button>submit</button></Link> 
         </div>
         
         </Col>
