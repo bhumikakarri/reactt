@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className='one'>
      <ul>
-     <Link to='/home' className='cc' ><li><HomeIcon />hme</li> </Link>
+     <Link to='/home' className='cc' ><li><HomeIcon />home</li> </Link>
       <Link to='/About' className='cc' > <li> <ProductionQuantityLimitsIcon/>product</li></Link>
       <Link to='/Blog' className='cc' > <li><BookIcon />blog</li></Link>
       <Link to='/Contact' className='cc' > <li><CallIcon/>contact</li></Link>
