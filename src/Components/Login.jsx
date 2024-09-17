@@ -29,7 +29,7 @@ function Login() {
             <input type='number'/>
             <p></p>
           
-          <p>don,t have an account?<Link to='Signup/'> signup</Link></p>
+          <p>don,t have an account?<Link to='/signup'> signup</Link></p>
           <p></p>
          <Link to='/dashboard'>  <button>Login</button></Link> 
         </div>

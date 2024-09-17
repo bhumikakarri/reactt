@@ -19,7 +19,8 @@ import Orders from './Components/Orders'
 import Blog from './Components/Blog'
 import Contact from './Components/Contact'
 import Read from './Components/Read'
-import View from './Components/View'
+import Hooks from './Data/Hooks'
+import Onepage from './Components/Onepage'
 
 function App() {
   return (
@@ -39,9 +40,8 @@ function App() {
          <Route path='/blog' element={<Blog/>}/>
          <Route path='/contact' element={<Contact/>}/>
          <Route path='/read' element={<Read/>}/>
-         <Route path='/view' element={<View/>}/>
-         
          <Route path='/orders' element={<Orders/>}/>
+         <Route path='/about/:id' element={<Onepage/>}/>
          <Route path='/service' element={<Service/>}/>
          <Route path='/logout' element={<Logout/>}/>
         

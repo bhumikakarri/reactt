@@ -5,9 +5,14 @@ import Header from './Header'
 import Head from './Head' 
 import {productsData} from '../Data/Products'
 import { Link } from 'react-router-dom'
+
 function About() {
+  
+ 
   return (
     <div>
+    
+      
        <Row>
         <Col sm={12}>
         <Head/>
@@ -18,6 +23,7 @@ function About() {
     <Col sm={2}><Header/></Col>
    
     <Col sm={10}>
+   
    <div className='mainn'>
     {
       productsData.map((item)=>{
@@ -31,6 +37,7 @@ function About() {
       
       <p>{"name:"+" "+item.name}</p>
       <p>{"price:"+" "+item.price}</p>
+     
           </div>
         )
       })
